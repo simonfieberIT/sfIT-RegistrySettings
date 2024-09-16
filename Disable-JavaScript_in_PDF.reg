@@ -1,0 +1,42 @@
+Windows Registry Editor Version 5.00
+; Adobe Acrobat Reader 6.x
+[HKEY_CURRENT_USER\Software\Adobe\Acrobat Reader\6.0\JSPrefs]
+    "bConsoleOpen"=dword:00000000
+    "bEnableJS"=dword:00000000
+    "bEnableMenuItems"=dword:00000000
+
+; Adobe Acrobat Reader 7.x
+[HKEY_CURRENT_USER\Software\Adobe\Acrobat Reader\7.0\JSPrefs]
+    "bConsoleOpen"=dword:00000000
+    "bEnableJS"=dword:00000000
+    "bEnableMenuItems"=dword:00000000
+
+; Adobe Acrobat Reader 8.x
+[HKEY_CURRENT_USER\Software\Adobe\Acrobat Reader\8.0\JSPrefs]
+    "bConsoleOpen"=dword:00000000
+    "bEnableJS"=dword:00000000
+    "bEnableMenuItems"=dword:00000000
+
+; Adobe Acrobat Reader 9.x
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Adobe\Acrobat Reader\9.0\FeatureLockDown] "bEnhancedSecurityStandalone"=dword:00000001
+    "bEnhancedSecurityInBrowser"=dword:00000001
+[HKEY_CURRENT_USER\Software\Adobe\Acrobat Reader\9.0\JSPrefs] "bConsoleOpen"=dword:00000000
+    "bEnableGlobalSecurity"=dword:00000001
+    "bEnableJS"=dword:00000000
+    "bEnableMenuItems"=dword:00000000
+[HKEY_CURRENT_USER\Software\Adobe\Acrobat Reader\9.0\Originals] "bAllowOpenFile"=dword:00000000
+    "bSecureOpenFile"=dword:00000001
+
+; Adobe Acrobat 9.x
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Adobe\Adobe Acrobat\9.0\FeatureLockDown] "bEnhancedSecurityStandalone"=dword:00000001
+    "bEnhancedSecurityInBrowser"=dword:00000001
+[HKEY_CURRENT_USER\Software\Adobe\Adobe Acrobat\9.0\JSPrefs] "bConsoleOpen"=dword:00000000
+    "bEnableGlobalSecurity"=dword:00000001
+    "bEnableJS"=dword:00000000
+    "bEnableMenuItems"=dword:00000000
+[HKEY_CURRENT_USER\Software\Adobe\Adobe Acrobat\9.0\Originals] "bAllowOpenFile"=dword:00000000
+    "bSecureOpenFile"=dword:00000001
+
+; Adobe Acrobat Reader DC
+[HKCU\Software\Adobe\Adobe Reader\DC\JSPrefs] "bEnableJS"=dword:00000000
+[HKCU\Software\Adobe\Adobe Acrobat\DC\JSPrefs] "bEnableJS"=dword:00000000
